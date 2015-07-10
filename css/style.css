@@ -1,0 +1,38 @@
+/*
+Basic settings:
+
+*/
+body {
+  font-family: "Lato", 'Arial', san-serif;
+  font-size:14px;
+  }
+
+.bg-pattern {
+  background: 
+  radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+  radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+  linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+  linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+  background-color: slategray;
+  background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size:200%;
+  font-weight:300;
+  color: white;
+  letter-spacing:.9px;
+}
+
+
+#navbar-row .nav li {
+  display: inline-block;
+}
+
+#navbar-row .nav li a {
+  text-decoration: none;
+  color: #F2784B;
+  font-size:120%;
+  margin-top: 20px;
+}

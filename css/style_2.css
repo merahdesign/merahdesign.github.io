@@ -1,0 +1,151 @@
+/****** Basic styles ******
+
+*/
+
+body {
+  color: #555;
+  background-color: #fff;
+  font-family: "Lato", 'Arial', san-serif;
+  font-size: 20px;
+}
+
+#navlogorow {
+  margin-top: 7px;
+  margin-bottom: 3px;
+}
+
+.logo a {
+  display: inline-block;
+  margin: 10px auto;
+  padding-left: 10px;
+  font-family: 'Exo 2';
+  font-weight: 400;
+  font-size:100%;
+}
+
+
+
+#navul li a:link,
+#navul li a:visited {
+  text-decoration: none;
+  color: #555;
+  text-transform: uppercase;
+  font-size:70%;
+  font-weight: 100;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+#navul li a:hover,
+#navul li a:active {
+  border-bottom: 2px solid #4183D7;
+  background: none;
+  border-radius: 0;
+}
+
+/***************************
+***** MAIN CONTENT WRAPPER*****
+*****************************/
+#contentwrapper {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/hero.jpg);
+  height: 100vh;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.circular-logo {
+  margin:10px auto;
+  width: 130px;
+  height: 130px;
+  border-radius: 65px;
+  -webkit-border-radius: 65px;
+  -moz-border-radius: 65px;
+  background: url(img/nishat1.jpg) no-repeat;
+  border: 5px solid #fff;
+}
+
+.short-bio p {
+text-align: center;
+font-size: 90%;
+font-weight: 300;
+color: #fff;
+line-height: 150%
+}
+
+.short-bio a:link,
+.short-bio a:visited {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border 0.2s, color 0.2s
+
+}
+.short-bio a:hover,
+.short-bio a:active {
+  color: #4183D7;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+
+/***************************
+***** BLOG POSTS*****
+*****************************/
+#blogposts-box-title {
+  margin-top: 60px;
+}
+
+#blogposts-box-title h1 a:link,
+#blogposts-box-title h1 a:visited {
+  color: white;
+  font-weight: 300;
+  font-size: 80%;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+
+}
+
+#blogposts-box-title h1:after {
+  display: block;
+  height: 2px;
+  background-color: #4183D7;
+  content: " ";
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.blogposts-container {
+  margin-top: 50px;
+}
+
+/*
+.blogpost-box {
+  border: 2px solid rgba(31, 58, 147,0.3);
+  background-color: #4183D7;
+} */
+
+.blogpost-box {
+  border: 2px solid rgba(31, 58, 147,0.1);
+  background-color: rgba(199,199,199,1);
+}
+
+.blogpost-box h3 {
+  font-size: 100%;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+
+}
+
+.blogpost-box h3 a {
+  text-decoration: none;
+  color: #4183D7;
+}
+
+.blogpost-box p {
+  color: #eee;
+  font-weight: 300;
+  font-size: 75%;
+}
